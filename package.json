@@ -1,0 +1,13 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sjcp7/odin-restaurant.git",
+  "author": "Samuel Pedro <redsamuel.cruz7@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
