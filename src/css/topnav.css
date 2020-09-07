@@ -9,7 +9,6 @@ nav {
 }
 
 nav button {
-  color: white;
   margin: 10px 15px;
   padding: 5px;
   font-size: 25px;
@@ -21,4 +20,8 @@ nav button {
 .nav-logo {
   font-family: 'Pacifico', cursive;
   cursor: default;
+}
+
+.white {
+  color: white;
 }
