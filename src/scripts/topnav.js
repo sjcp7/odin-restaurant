@@ -26,4 +26,24 @@ topnav.appendChild(logoBtn);
 topnav.appendChild(aboutBtn);
 topnav.appendChild(contactBtn);
 
+function addWhiteClass() {
+  homeBtn.classList.add('white');
+  menuBtn.classList.add('white');
+  aboutBtn.classList.add('white');
+  contactBtn.classList.add('white');
+  logoBtn.classList.add('white');
+}
+
+
+function removeWhiteClass() {
+  homeBtn.classList.remove('white');
+  menuBtn.classList.remove('white');
+  aboutBtn.classList.remove('white');
+  contactBtn.classList.remove('white');
+  logoBtn.classList.remove('white');
+}
+
+
+
 export default topnav;
+export { addWhiteClass , removeWhiteClass }
