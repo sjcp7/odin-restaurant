@@ -1,4 +1,5 @@
 import '../css/topnav.css';
+import menu from './menu';
 const topnav = document.createElement('nav');
 
 const homeBtn = document.createElement('button');
@@ -14,6 +15,10 @@ contactBtn.textContent = 'Contact';
 logoBtn.textContent = 'Chez Lorem';
 
 logoBtn.classList.add('nav-logo');
+homeBtn.classList.add('nav-home');
+menuBtn.classList.add('nav-menu');
+aboutBtn.classList.add('nav-about');
+contactBtn.classList.add('nav-contact');
 
 topnav.appendChild(homeBtn);
 topnav.appendChild(menuBtn);
