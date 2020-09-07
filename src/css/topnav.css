@@ -1,0 +1,24 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.0);
+}
+
+nav button {
+  color: white;
+  margin: 10px 15px;
+  padding: 5px;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.0);
+  border: none;
+  cursor: pointer;
+}
+
+.nav-logo {
+  font-family: 'Pacifico', cursive;
+  cursor: default;
+}
